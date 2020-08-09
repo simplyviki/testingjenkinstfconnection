@@ -6,7 +6,7 @@ pipeline{
     stages{
         stage('Git Checkout'){
             steps{
-                git 'https://github.com/simplyviki/testingjenkinstfconnection.git'
+                git 'https://github.com/simplyviki/testingjenkinstfconnection'
             }
         }
         stage('Terraform init'){
