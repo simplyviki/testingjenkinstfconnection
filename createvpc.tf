@@ -2,6 +2,8 @@ provider "aws" {
   
 }
 
+ region = "us-west-2"
+
 
 # Define a vpc
 resource "aws_vpc" "demoVPC" {
